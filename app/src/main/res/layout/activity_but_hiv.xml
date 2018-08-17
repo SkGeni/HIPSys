@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shubkaus.hpisys.ButHIV"
+    android:background="@drawable/hiv_aids">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CAUSES:The human immunodeficiency virus (HIV) is a lentivirus (a subgroup of retrovirus) that causes HIV infection and over time acquired immunodeficiency syndrome "
+        android:id="@+id/textView15"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:focusable="false"
+        android:textColor="#0a0a0a" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SYMPTOMS: Flu-like symptoms can include:      Fever     Chills     Rash     Night sweats     Muscle aches     Sore throat     Fatigue     Swollen lymph nodes     Mouth ulcers  "
+        android:id="@+id/textView16"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:focusable="false"
+        android:textColor="#0a0a0a" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="TEST: RNA Test Antibody/Antigen Combination Tests Antibody Screening Tests "
+        android:id="@+id/textView17"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true"
+        android:focusable="false"
+        android:textColor="#0a0a0a" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="TREATMENT: There is no treatment for AIDS.Prevention is only cure.  PREVENTIVE MEASURES: Use a clean needle If you&apos;re pregnant, get medical care right away Have safe sex Get tested and treated for STDs.  EFFECTS OF HIV AIDS:   HIV AIDS may lead to death. "
+        android:id="@+id/textView18"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentStart="true"
+        android:focusable="false"
+        android:textColor="#0a0a0a" />
+
+</RelativeLayout>

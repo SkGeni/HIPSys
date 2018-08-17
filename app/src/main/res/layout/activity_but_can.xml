@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shubkaus.hpisys.ButCan"
+    android:background="@drawable/cancer"
+    android:alpha="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView10"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#ffffff"
+        android:text="Cancer is a group of more than 100 different diseases. " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" SYMPTOMS:           Unexplained weight loss"
+        android:id="@+id/textView19"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="86dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="  CAUSES:         Cancer is a group of diseases that can cause almost any sign or symptom.  "
+        android:id="@+id/textView20"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PRECAUTIONS:          If you choose to drink alcohol, do so only in moderation. "
+        android:id="@+id/textView21"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" VACCINES TO PREVENT CANCER:           Gardasil,Cervarix     "
+        android:id="@+id/textView22"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shubkaus.hpisys.Emerg"
+    android:background="@drawable/em">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital"
+        android:id="@+id/butHos"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fire!!"
+        android:id="@+id/butFire"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/butHos"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Police"
+        android:id="@+id/butPolice"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/butFire"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Women Helpline"
+        android:id="@+id/butWHelp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/butPolice"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Emergency Disaster Management"
+        android:id="@+id/butEDMang"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/butWHelp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anti-Ragging"
+        android:id="@+id/butAnti"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/butEDMang"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Special Number"
+        android:id="@+id/butSpc"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/butAnti"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>

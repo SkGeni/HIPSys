@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shubkaus.hpisys.Fac"
+    android:background="@drawable/cancer1">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Influenza"
+        android:id="@+id/butInfl"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/butHIV"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancer"
+        android:id="@+id/butCan"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="39dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mumps"
+        android:id="@+id/butmumps"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/butInfl"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HIV"
+        android:id="@+id/butHIV"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/butChic"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chickrenpox"
+        android:id="@+id/butChic"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/butCan"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuberculosis (TB)"
+        android:id="@+id/butTB"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/butswine"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rabies"
+        android:id="@+id/btnRAab"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/POLIO"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="swine flue"
+        android:id="@+id/butswine"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnRAab"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POLIO"
+        android:id="@+id/POLIO"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/butmumps"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>
